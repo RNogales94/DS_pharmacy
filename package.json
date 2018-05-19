@@ -1,0 +1,23 @@
+{
+  "name": "ds_pharmacy",
+  "version": "1.0.0",
+  "description": "backend for a sample SPA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RNogales94/DS_pharmacy.git"
+  },
+  "author": "Rafael Nogales Vaquero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RNogales94/DS_pharmacy/issues"
+  },
+  "homepage": "https://github.com/RNogales94/DS_pharmacy#readme"
+}
