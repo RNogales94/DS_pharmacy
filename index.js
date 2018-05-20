@@ -43,7 +43,7 @@ app.post('/register', function(request, response) {
 		response.status(400).json({error: "Username required"});
 });
 
-app.get('/username', getUserid, function(request, response) {
+app.get('/username', function(request, response) {
 	pool.query('select username from users where username = $1', [request.userid]).then(result => {
 		if (result.rows[0])
 			response.json(result.rows[0].username);
