@@ -4,7 +4,7 @@ var router = express.Router();
 var db = require('../queries');
 
 router.get('/', function(request, response){
-  response.set('Content-Type', 'text/html'; charset='utf-8');
+  response.set('Content-Type', 'text/html; charset=utf-8');
   response.set('Strict-Transport-Security', 'max-age=31536000');
 	response.set('X-Frame-Options', 'deny');
 	response.sendFile(__dirname + '/public/index.html', {maxAge: '30m', immutable: true});
