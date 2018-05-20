@@ -1,10 +1,21 @@
 {
   "name": "ds-farma",
   "version": "0.0.0",
-  "private": true,
+  "author": "Rafael Nogales",
+  "description": "DS backend app",
+  "main": "app.js",
+  "engines": {
+		"node": "10.x",
+		"npm": "6.x"
+	},
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "dependencies": {
     "bluebird": "^3.5.1",
     "cookie-parser": "~1.4.3",
