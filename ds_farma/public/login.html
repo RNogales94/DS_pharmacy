@@ -20,24 +20,29 @@
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
-        <li class="pure-menu-item"><a href="/login.html" class="pure-menu-link">Sign In</a></li>
-        <li class="pure-menu-item"><a href="/register.html" class="pure-menu-link">Sign Up</a></li>
+        <li class="pure-menu-item"><a href="login.html" class="pure-menu-link">Sign In</a></li>
+        <li class="pure-menu-item"><a href="register.html" class="pure-menu-link">Sign Up</a></li>
       </ul>
     </div>
   </div>
 
-  <div class="splash-container" id="initial_activity">
+
+  <div class="splash-container" id="form_activity">
     <div class="splash">
-      <h1 class="splash-head">Farmacias - UGR</h1>
-      <p class="splash-subhead">
-        La app para pedir medicamentos.
-      </p>
-      <p>
-        <a href="/login.html" class="pure-button pure-button-primary">Buscar Farmacias</a>
-      </p>
+
+      <form class="pure-form pure-form-stacked">
+        <fieldset>
+          <label for="username">Nombre de usuario</label>
+          <input id="username" type="text" placeholder="username">
+
+          <label for="password">Contraseña</label>
+          <input id="password" type="password" placeholder="password">
+
+          <button type="submit" class="pure-button">Sign In</button>
+        </fieldset>
+      </form>
     </div>
   </div>
-
 
 
 </body>
