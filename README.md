@@ -1,2 +1,2 @@
-# DS_pharmacy
-SPA for pharmacies with nodeJS
+# base-de-datos
+Proof of concept de una base de datos con usuarios.

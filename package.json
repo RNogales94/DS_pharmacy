@@ -1,26 +1,25 @@
 {
-  "name": "ds_pharmacy",
-  "version": "1.0.0",
-  "description": "backend for a sample SPA",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "*",
+	"name": "base-de-datos",
+	"version": "1.0.0",
+	"description": "Prototipo de una base de datos",
+	"engines": {
+		"node": "10.x",
+		"npm": "6.x"
+	},
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"express": "*",
 		"pg": "*",
 		"google-auth-library": "*",
 		"body-parser": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RNogales94/DS_pharmacy.git"
-  },
-  "author": "Rafael Nogales Vaquero",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RNogales94/DS_pharmacy/issues"
-  },
-  "homepage": "https://github.com/RNogales94/DS_pharmacy#readme"
+	},
+	"keywords": [
+		"node",
+		"heroku",
+		"express",
+		"database"
+	]
 }
