@@ -20,7 +20,7 @@
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a onclick="changeActivity('initial_activity')" href="#" class="pure-menu-link">Home</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+        <li class="pure-menu-item"><a onclick="changeActivity('form_activity')" href="#" class="pure-menu-link">Sign Up</a></li>
       </ul>
     </div>
   </div>
@@ -43,17 +43,13 @@
 
       <form class="pure-form pure-form-stacked">
         <fieldset>
-          <label for="name">Your Name</label>
-          <input id="name" type="text" placeholder="Your Name">
+          <label for="username">Nombre de usuario</label>
+          <input id="username" type="text" placeholder="username">
 
+          <label for="password">Contraseña</label>
+          <input id="password" type="password" placeholder="password">
 
-          <label for="email">Your Email</label>
-          <input id="email" type="email" placeholder="Your Email">
-
-          <label for="password">Your Password</label>
-          <input id="password" type="password" placeholder="Your Password">
-
-          <button type="submit" class="pure-button">Sign Up</button>
+          <button type="submit" class="pure-button">Sign In</button>
         </fieldset>
       </form>
     </div>
