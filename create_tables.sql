@@ -1,4 +1,0 @@
-CREATE TABLE users (
-	userid TEXT PRIMARY KEY,
-	username TEXT UNIQUE NOT NULL
-);
